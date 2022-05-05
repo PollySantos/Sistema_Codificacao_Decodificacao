@@ -41,8 +41,17 @@
   - split (JS)
   - parsetInt (JS)
 
-  **Criado e desenvolvido por [Poliana Santos](https://www.linkedin.com/in/polianasantoss/).**
-  
+
+
+## Link 
+
+https://pollysantos.github.io/Sistema_Codificacao_Decodificacao/
+
+##
+<br>
+
+**Criado e desenvolvido por [Poliana Santos](https://www.linkedin.com/in/polianasantoss/).**
+
  <div align="center"> 
   <a href="mailto:zpolianasantos@gmail.com"><img src="https://cdn-icons-png.flaticon.com/512/552/552486.png" height="40em" title="Enviar E-mail"></a>
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -58,7 +67,3 @@
   &#11165;&nbsp;<a href="#inicio"><strong>Voltar ao topo</strong></a>&nbsp;&#11165;
 </div>
 
-
-## Link 
-
-https://pollysantos.github.io/Sistema_Codificacao_Decodificacao/
