@@ -1,4 +1,4 @@
-# Projeto de Sprint: Sistema de Codificação e Decodificação 
+## Projeto de Sprint: Sistema de Codificação e Decodificação 
 
 <h2 id="sobre">Sobre 🔎</h2>
   <p>Projeto onde precisei desenvolver uma aplicação capaz de codificar e decodificar mensagens utilizando Cifra de César e Base64. Utilizando meus conhecimentos de HTML, CSS e JavaScript, com foco em manipulação de DOM, para conceber uma aplicação que estivesse de acordo com os requisitos abaixo:</p>
