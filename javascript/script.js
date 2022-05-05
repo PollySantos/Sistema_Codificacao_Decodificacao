@@ -50,24 +50,24 @@ function cesar()  {
   }
 }
 
-function cesarCodificando(arr, key){
+function cesarCodificando(arr, chave){
   return arr.map((p)=>{
       let code = p.charCodeAt();
       if(code >= 65 && code <= 90){
-          return String.fromCharCode(((code - 65 + key) % 26) + 65)
+          return String.fromCharCode(((code - 65 + chave) % 26) + 65)
       } else if(code >= 97 && code <= 122){
-          return String.fromCharCode(((code - 97 + key) % 26) + 97)
+          return String.fromCharCode(((code - 97 + chave) % 26) + 97)
       } else return p
   }).join('')
 }
 
-function cesarDecodificando(arr, key){
+function cesarDecodificando(arr, chave){
   return arr.map((p)=>{
       let code = p.charCodeAt();
       if(code >= 65 && code <= 90){
-          return (code-65-key < 0)?String.fromCharCode(((code - 65 - key + 26)%26)+65):String.fromCharCode(((code - 65 - key)%26)+65) 
+          return (code-65-chave < 0)?String.fromCharCode(((code - 65 - chave + 26)%26)+65):String.fromCharCode(((code - 65 - chave)%26)+65) 
       } else if(code >= 97 && code <= 122){
-          return String.fromCharCode(((code - 97 - key + 26) % 26) + 97)
+          return String.fromCharCode(((code - 97 - chave + 26) % 26) + 97)
       } else return p
   }).join('')
 }
