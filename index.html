@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <title>Codificador e Decodificador de texto</title>
+</head>
+<body>
+    <form class="container">
+        <h1 class="titulo">Sistema de Codificação</h1>
+        <section class="escolher">
+            <select name="selecionar" id="selecionar">
+                <option value="metodo" disabled selected>Escolha sua opção</option>
+                <option value="cesar">Cifra de César</option>
+                <option value="base64">Base64</option>
+            </select>
+
+            <input class="ocultarIncremento" id="ocultarIncremento" type="number" placeholder="Chave">
+
+            <div class="metodo">
+                <input checked type="radio" id="codificar" name="escolhaDeMetodo" value="codificar">
+                <label for="escolhaDeMetodo">CODIFICAR</label>
+                <input type="radio" id="decodificar" name="escolhaDeMetodo">
+                <label for="escolhaDeMetodo">DECODIFICAR</label>
+            </div>
+        </section>
+
+        <section class="mensagem-usuario">
+            <textarea class="texto" id="escreva" name="texto-usuario" placeholder="Digite seu texto..." rows="8"cols="28"></textarea>
+            <textarea class="texto" id="resultado" name="texto-usuario" placeholder= "Seu código aparecerá aqui..." rows="8" cols="28" readonly></textarea>
+        </section>
+
+        <button type="button" id="botao">Codificar</button>
+    </form>
+
+    <video autoplay loop poster="" class="evideo">
+        <source src="./video/vecteezy_pink-and-blue-double-light-runs-alternately-into-rectangle-frames_1804374.mp4" type="video/mp4">
+    </video>
+
+    <footer>
+        <div>
+            <p class="rodape"><a href="https://www.linkedin.com/in/polianasantoss/" target="_blank"><strong>Desenvolvido por Poliana Santos - </strong></a> ©Copyright 2022</p>
+        </div>
+    </footer>
+
+    <script src="./javascript/script.js"></script>
+
+</body>
+</html>

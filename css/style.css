@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{   
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 40rem;
+    background-color:rgba(233, 68, 230, 0.582);
+    padding: 25px 20px 0 25px;
+    margin-top: 20rem;
+    border: 5px solid rgb(250, 1, 246);
+}
+
+.titulo{
+    margin: 1rem;
+    color:rgb(252, 250, 248);
+    font-weight: bold;
+    font-size: 25px;
+    padding: 8px;
+    box-shadow: -4px 7px 20px 1px rgb(116, 136, 252);
+    background-color: rgb(222, 11, 219);
+}
+
+.titulo:hover {
+    transform: scale(1.1);
+}
+
+.escolher{
+    display: flex;
+    margin: 3%;
+    width: 90%;
+    justify-content: center;
+    font-size: 16px;
+}
+
+#selecionar{
+    margin: 0.3rem;
+    width: 9rem;
+    border: 3px solid rgb(222, 11, 219);
+    outline: none;
+    text-align: center;
+    
+}
+
+#ocultarIncremento{
+    display: flex;
+    margin: 0.3rem;
+    width: 8rem;
+    display: none;
+    border: 3px solid rgb(222, 11, 219);
+    outline: none;
+    text-align: center;
+    justify-content: center;
+}
+
+.metodo{
+    display: flex;
+    position: absolute;
+    margin-top: 45px;
+    font-size: 14px;
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+    
+}
+
+input[type='radio']{
+    margin-left: 25px;
+    margin-right: 8px;
+}    
+
+option[value= 'cesar'] , [value= 'base64'] {
+    background-color: rgb(230, 9, 123);
+
+}
+#base64:hover {
+    background-color: rgb(230, 9, 123);
+    
+}
+
+.mensagem-usuario{
+    display: flex;
+   
+}
+
+.texto{
+    resize: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    margin: 20px;
+    border: 2px solid rgb(222, 11, 219);
+    outline: none;
+}
+
+#botao{
+    width: 25%;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 20px;
+    margin-bottom: 2rem;
+    text-transform: none;
+    border-color: rgb(255, 58, 173);
+    color: rgb(252, 205, 245);
+    background: rgba(75, 214, 248, 0.68);
+    font-weight: 300;
+}
+
+#botao:hover{
+    border-color: rgb(44, 250, 222);
+    border-width: 2px;
+    border-style: solid;
+    color: rgb(252, 205, 245);
+    background: rgb(169, 36, 247);
+}
+
+.evideo {
+    position: fixed; 
+    top: 0;
+    right: 0; 
+    bottom: 0;
+    left: 0;
+    width: 100%; 
+    height: auto; 
+    z-index: -1;
+    
+}
+
+footer{
+    position: fixed;
+    bottom: 0px;
+    text-align: center;
+    margin: 10px 0 0;
+    width: 100%;
+    font-weight: 500;
+    padding: 10px;
+    font-weight: bold;
+    color: rgb(201, 80, 155);
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(201, 80, 155);
+}
+
+@media screen and (max-width: 700px) {
+
+    
+}
+
+@media  screen and (min-width: 900px) {
+   
+}
