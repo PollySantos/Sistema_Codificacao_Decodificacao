@@ -10,7 +10,7 @@
   - Um botão que, com "codificar" selecionado exibe o texto "Codificar Mensagem!" e com "decodificar" selecionado exibe "Decodificar Mensagem!"
 
 <div align="center">
-  <img height="450em" src=""/>
+  <img height="450em" src="./projeto.gif"/>
 </div>
 
 <h2 id="linguagens">Softwares & Ferramentas utilizadas nesse projeto 📚</h2>
